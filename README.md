@@ -19,9 +19,11 @@ Papel: Scrum Master, Documentador, Desenvolvedor, Testador
 
 ## Instalação e Execução
 
-```bash
-cd frontend
-npm install
-npm run dev
+Para rodar o jogo localmente, siga os passos abaixo:
 
+1. Clone o repositório ou faça o download dos arquivos.
+2. Navegue até a pasta `frontend`:
+   ```bash
+   cd frontend
+3. Abra o arquivo  index.html em qualquer navegador web (Google Chrome, Firefox, Edge, etc.).
 
