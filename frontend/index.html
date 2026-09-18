@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" defer></script>
+    <title>Mario & Wario Jump</title>
+</head>
+<div class="game-board">
+    <div class="score-container">
+            <div>Pontos: <span id="score-value">0</span></div>
+            <div>Recorde: <span id="high-score-value">0</span></div>
+        </div>
+        <div class="character-select">
+        <h2 class="retro-title">Escolha seu Personagem:</h2>
+        <div class="character-options">
+            <button class="retro-btn char-btn selected" data-char="mario">Mario</button>
+            <button class="retro-btn char-btn" data-char="wario">Wario</button>
+        </div>
+        <button class="start-button">Start</button>
+    </div>
+        <img src="./assets/images/clouds.png" class="clouds cloud-1" alt="Nuvem" />
+        <img src="./assets/images/clouds.png" class="clouds cloud-2" alt="Nuvem" />
+        <img src="./assets/images/mario.gif" class="mario" alt="Personagem" />
+        <img src="./assets/images/pipe.png" class="pipe" alt="Cano" />
+        <img src="./assets/images/lakitu.png" class="lakitu" alt="Lakitu" />
+        <button class="retro-btn restart-button">Reiniciar</button>
+        <div class="floor"></div>
+        <div class="game-over-text">GAME OVER</div>
+    </div>
+</body>
+</html>
