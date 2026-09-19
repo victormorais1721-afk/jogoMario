@@ -17,13 +17,29 @@ Nome: Victor Emmanuel Barbosa De França Morais
 Matricula: 01942107
 Papel: Scrum Master, Documentador, Desenvolvedor, Testador
 
-## Instalação e Execução
+## 🚀 Como Executar o Projeto
 
-Para rodar o jogo localmente, siga os passos abaixo:
+Para rodar o jogo do Mario na sua máquina local, siga os passos abaixo:
 
-1. Clone o repositório ou faça o download dos arquivos.
-2. Navegue até a pasta `frontend`:
+### Pré-requisitos
+
+Um navegador web moderno (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari, etc.).
+
+### Passo a Passo
+
+1. **Clonar o repositório:**
+
    ```bash
-   cd frontend
-3. Abra o arquivo  index.html em qualquer navegador web (Google Chrome, Firefox, Edge, etc.).
+   git clone [https://github.com/victormorais1721-afk/jogoMario.git](https://github.com/victormorais1721-afk/jogoMario.git)
+
+2. **Navegar até a pasta frontend**
+ 
+   cd jogoMario/frontend
+
+3. **Executar o jogo**
+
+   Opção 1 (Direta): Abra a pasta frontend no seu gerenciador de arquivos e dê um duplo clique no arquivo index.html.
+
+   Opção 2 (Via extensão): Se estiver utilizando o VS Code, clique com o botão direito no arquivo index.html e selecione "Open with Live Server".
+   
 
